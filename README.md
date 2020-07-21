@@ -1,5 +1,13 @@
 # mafmodule
 A simple Javascript module that contains functions that which might make your life easier.
+
+# Link to HTML File
+Add this line before your ending body tag (before other scripts such as `main.js` or `app.js`
+```html
+<script src="https://cdn.jsdelivr.net/gh/mafgit/mafmodule/mafmodule.js"></script>
+<script src="main.js"></script>
+```
+
 ### remove(arr, index)
 A function that requires two parameters, an array, and the index of the element you wanna remove from it.
 
