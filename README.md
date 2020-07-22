@@ -2,10 +2,9 @@
 A simple Javascript module that contains functions that which might make your life easier.
 
 ## Link to HTML File
-Add this line before your ending body tag (before other scripts such as `main.js` or `app.js`
+Add this line before your ending body tag (above other scripts that use this module.
 ```html
 <script src="https://cdn.jsdelivr.net/gh/mafgit/mafmodule/mafmodule.js"></script>
-<script src="main.js"></script>
 ```
 
 ### remove(arr, index)
