@@ -17,7 +17,7 @@ const count = (arr, el) => {
   return arr.filter((arrEl) => arrEl === el).length;
 };
 
-function range(start, end, steps = 1) {
+const range = (start, end, steps = 1) => {
   let arr = []
   steps = steps === 0 ? 1 : steps
   for (let i = start; i < end; i += steps) {
