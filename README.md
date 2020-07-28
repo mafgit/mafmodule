@@ -35,3 +35,11 @@ let arr = [1,2,3,2,2,'two'];
 console.log(count(arr, 2))
 // 3
 ```
+### range(start, end, [steps])
+A function that returns a iterable. It works like python's range function.
+```javascript
+for (i in range(0, 5)) {
+  console.log(i)
+}
+// 0 1 2 3 4
+```
