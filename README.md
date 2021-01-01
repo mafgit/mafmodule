@@ -20,7 +20,7 @@ console.log(arr);
 ### shuffle(arr)
 A function that shuffles an array randomly that you provide as a parameter to it.
 
-```javascript
+```js
 let arr = ['first', 'second', 'third'];
 arr = shuffle(arr);
 console.log(arr);
@@ -30,14 +30,14 @@ console.log(arr);
 ### count(arr, el)
 A function that counts the number of duplicates of an element in an array.
 
-```javascript
+```js
 let arr = [1,2,3,2,2,'two'];
 console.log(count(arr, 2))
 // 3
 ```
 ### range(start, end, [steps])
 A function that returns a iterable. It works like python's range function.
-```javascript
+```js
 for (i in range(0, 5)) {
   console.log(i)
 }
