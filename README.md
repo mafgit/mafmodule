@@ -38,10 +38,10 @@ console.log(count(arr, 2))
 ```
 
 ### range(start, end, [steps])
-A function that returns a iterable. It works like python's range function.
+A function that returns an array. It works like python's range function.
 
 ```js
-for (i in range(0, 5)) {
+for (let i of range(0, 5)) {
   console.log(i)
 }
 // 0 1 2 3 4
