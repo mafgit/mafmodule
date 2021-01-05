@@ -5,7 +5,7 @@ A basic Javascript module that contains a few functions that which might make yo
 Add this line before your ending body tag (above other scripts that use this module).
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/mafgit/mafmodule/mafmodule.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mafgit/mafmodule@master/mafmodule.js"></script>
 ```
 
 ### remove(arr, index)
