@@ -1,4 +1,4 @@
-const remove = (arr, index) => arr.filter((el) => arr.indexOf(el) !== index);
+const remove = (arr, index) => arr.filter((el, i) => i !== index)
 
 const shuffle = (arr) => {
   let newArr = [];
